@@ -1,0 +1,80 @@
+/*CONTENT */
+
+/* card styling */
+
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2rem;
+}
+
+.overlay a {
+  color: white;
+}
+
+.overlay a:visited {
+  color: white;
+}
+
+.card-detail:hover .overlay {
+  display: flex;
+}
+
+.card-detail:hover .overlay {
+  display: flex;
+}
+
+.prod-img img {
+  width: 100%;
+}
+
+
+.hover-pic {
+  display: none;
+}
+
+.prod-img:hover .main-pic {
+  display: none;
+}
+
+.prod-img:hover .hover-pic {
+  display: block;
+}
+
+.like {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+}
+
+.like:hover {
+  color: red;
+}
+
+.disc-tag {
+  position: absolute;
+  bottom: 20%;
+}
+
+.disc-tag span {
+  padding: 10px 20px;
+  color: white;
+}
+
+.prod-name {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}

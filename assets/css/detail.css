@@ -1,0 +1,67 @@
+/*CONTENT */
+.container-sm {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* card styling */
+
+.container-sm p {
+  margin: 10px 0;
+}
+
+.card-detail:hover .overlay {
+  display: flex;
+}
+
+.card-detail:hover .overlay {
+  display: flex;
+}
+
+.prod-img img {
+  width: 100%;
+}
+
+
+.hover-pic {
+  display: none;
+}
+
+.prod-img:hover .main-pic {
+  display: none;
+}
+
+.prod-img:hover .hover-pic {
+  display: block;
+}
+
+.like {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  z-index: 2;
+
+}
+
+.like:hover {
+  color: red;
+}
+
+.disc-tag {
+  position: absolute;
+  bottom: 20%;
+}
+
+.disc-tag span {
+  padding: 10px 20px;
+  color: white;
+}
+
+.prod-name {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
