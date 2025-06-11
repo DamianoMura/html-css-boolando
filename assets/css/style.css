@@ -14,7 +14,7 @@ h3 {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 
 }
@@ -24,9 +24,33 @@ h3 {
   font-weight: bold;
 }
 
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.txt-red {
+  color: red;
+}
+
+.txt-barred {
+  text-decoration: line-through;
+}
+
 /*positions*/
 .p-fixed {
   position: fixed;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
 }
 
 .top-0 {
@@ -51,14 +75,24 @@ h3 {
   padding: 20px 0;
 }
 
-.col {}
+.row {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col {
+  width: calc(100% / 3 - 30px);
+}
+
 
 /*CONTENT */
 header {
   background-color: #FF6900;
   box-shadow: black;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 2;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
   width: 100%;
 }
@@ -102,4 +136,65 @@ footer {
 
 i {
   font-size: 1.5rem;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/* card styling */
+
+.prod-img img {
+  width: 100%;
+}
+
+.main-pic {
+  display: block;
+}
+
+.hover-pic {
+  display: none;
+}
+
+.prod-img:hover .main-pic {
+  display: none;
+}
+
+.prod-img:hover .hover-pic {
+  display: block;
+}
+
+.like {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+}
+
+.like:hover {
+  color: red;
+}
+
+.disc-tag {
+  position: absolute;
+  bottom: 20%;
+}
+
+.disc-tag span {
+  padding: 10px 20px;
+  color: white;
+}
+
+.prod-name {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
