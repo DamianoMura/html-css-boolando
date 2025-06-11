@@ -6,7 +6,7 @@
 }
 
 main {
-  padding: 80px;
+  padding: 150px 0;
 }
 
 h3 {
@@ -14,7 +14,7 @@ h3 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 
 }
