@@ -2,36 +2,6 @@
 
 /* card styling */
 
-
-.overlay {
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 2rem;
-}
-
-.overlay a {
-  color: white;
-}
-
-.overlay a:visited {
-  color: white;
-}
-
-.card-detail:hover .overlay {
-  display: flex;
-}
-
-.card-detail:hover .overlay {
-  display: flex;
-}
-
 .prod-img img {
   width: 100%;
 }
