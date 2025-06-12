@@ -1,9 +1,15 @@
+:root {
+  --container-width: 1200px;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 
 main {
   padding: 150px 0;
@@ -15,7 +21,7 @@ h3 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: var(--container-width);
   margin: 0 auto;
 
 }
@@ -167,7 +173,7 @@ a:visited {
 }
 
 .col {
-  width: calc(100% / 3 - 30px);
+  width: calc(var(--container-width) / 3 - 30px);
 }
 
 .col-50 {
